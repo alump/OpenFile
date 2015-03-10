@@ -40,7 +40,7 @@
                 <param name="wp-package" value="OpenFile"/>
             </feature>
         </config-file>
-        <source-file src="src/wp8/OpenFile.cs"/>
+        <source-file src="src/wp/OpenFile.cs"/>
     </platform>
 
 
