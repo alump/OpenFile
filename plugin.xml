@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="org.vaadin.alump.openfile"
+    version="0.0.1">
+
+    <name>OpenFile</name>
+    <description>Offers API to open local files in multiple platforms</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,file,open</keywords>
+    <repo>https://github.com/alump/OpenFile.git</repo>
+    <issue>https://github.com/alump/issues</issue>
+
+    <js-module src="www/openfile.js" name="OpenFile">
+        <clobbers target="OpenFile"/>
+    </js-module>
+
+    <platform name="android">
+        <config-file target="AndroidManifest.xml" parent="/*">
+        </config-file>
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Open">
+                <param name="android-package" value="org.vaadin.alump.openfile"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/OpenFile.java" target-dir="src/org/vaadin/alump/openfile"/>
+    </platform>
+
+    <!--
+    <platform name="ios">
+        <source-file src="src/ios/OpenFile.m"/>
+        <source-file src="src/ios/OpenFile.h"/>
+    </platform>
+    -->
+
+    <platform name="wp8">
+        <config-file target="config.xml" parent="/*">
+            <feature name="OpenFile">
+                <param name="wp-package" value="OpenFile"/>
+            </feature>
+        </config-file>
+        <source-file src="src/wp8/OpenFile.cs"/>
+    </platform>
+
+
+</plugin>
