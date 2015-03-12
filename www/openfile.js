@@ -32,7 +32,7 @@ module.exports = {
 			}
 		}
 
-		alert("Open '" + uri + "' requested");
+		//alert("Open '" + uri + "' requested");
 		console.log("OpenFile: Open '" + uri + "'");
 		cordova.exec(success_cb, failure_cb, "OpenFile", "open", [uri]);
 	}

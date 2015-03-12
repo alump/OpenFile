@@ -20,8 +20,8 @@
         <config-file target="AndroidManifest.xml" parent="/*">
         </config-file>
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="Open">
-                <param name="android-package" value="org.vaadin.alump.openfile"/>
+            <feature name="OpenFile">
+                <param name="android-package" value="org.vaadin.alump.openfile.OpenFile"/>
             </feature>
         </config-file>
         <source-file src="src/android/OpenFile.java" target-dir="src/org/vaadin/alump/openfile"/>
