@@ -13,7 +13,7 @@
     <issue>https://github.com/alump/issues</issue>
 
     <js-module src="www/openfile.js" name="OpenFile">
-        <clobbers target="OpenFile"/>
+        <clobbers target="window.openfile"/>
     </js-module>
 
     <platform name="android">
@@ -42,6 +42,5 @@
         </config-file>
         <source-file src="src/wp/OpenFile.cs"/>
     </platform>
-
 
 </plugin>
