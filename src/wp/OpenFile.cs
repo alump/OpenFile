@@ -15,7 +15,6 @@
 using System.Text;
 using System.Threading.Tasks;
 using Windows.Storage;
-using Windows.Foundation.AsyncStatus;
 using WPCordovaClassLib.Cordova;
 using WPCordovaClassLib.Cordova.Commands;
 using WPCordovaClassLib.Cordova.JSON;
@@ -97,7 +96,7 @@ namespace WPCordovaClassLib.Cordova.Commands {
                     }
  
             } catch(System.Exception e) {
-                ErrorResponse("Exception: " + e.Message));
+                ErrorResponse("Exception: " + e.Message);
             }
         }
     }
