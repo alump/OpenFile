@@ -13,7 +13,8 @@ to be then displayed with help of OpenFile plug-in.
 
 What is the license?
 --------------------
-Plug-in is released with Apache 2.0 license. Allowing it to be used also in closed source commercial projects.
+Plug-in is released with [Apache 2.0 license](LICENSE.txt). Allowing it to be used also in closed source commercial
+projects.
 
 Copyrights
 ----------
@@ -24,7 +25,7 @@ Supported Platforms
 -------------------
 Currently Android, iOS and Windows Phone 8.
 
-I'm more than happy to add other platforms if patches are provided with compatible license with Apache 2.0.
+I'm more than happy to add other platforms if patches are provided with license compatible with Apache 2.0.
 
 Installation
 ------------
@@ -41,7 +42,15 @@ Plan is to release plug-in in cordova plug-in repository soon, to make it easier
 
 How to use it
 -------------
-In JavaScript:
+In JavaScript (easiest way):
+
+    window.openfile.open(filePath);
+
+Same from inside GWT JSNI:
+
+    $wnd.openfile.open(filePath);
+
+Full JavaScript example, with custom result callbacks defined:
 
     window.openfile.open(filePath,
          function() {

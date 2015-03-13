@@ -27,12 +27,15 @@
         <source-file src="src/android/OpenFile.java" target-dir="src/org/vaadin/alump/openfile"/>
     </platform>
 
-    <!--
     <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="OpenFile">
+                <param name="ios-package" value="OpenFile" />
+            </feature>
+        </config-file>
         <source-file src="src/ios/OpenFile.m"/>
         <source-file src="src/ios/OpenFile.h"/>
     </platform>
-    -->
 
     <platform name="wp8">
         <config-file target="config.xml" parent="/*">

@@ -7,7 +7,7 @@
 	"repo": "https://github.com/alump/OpenFile.git",
 	"issue": "https://github.com/alump/issues",
 	"keywords": [ "cordova","file","open" ],
-	"platforms": [ "android", "wp8" ],
+	"platforms": [ "android", "ios", "wp8" ],
 	"engines": [],
 	"englishdoc": ""
 }
