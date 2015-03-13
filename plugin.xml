@@ -35,6 +35,8 @@
         </config-file>
         <source-file src="src/ios/OpenFile.m"/>
         <source-file src="src/ios/OpenFile.h"/>
+        <framework src="QuickLook.framework" />
+        <framework src="Foundation.framework" />
     </platform>
 
     <platform name="wp8">

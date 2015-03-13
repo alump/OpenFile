@@ -29,10 +29,10 @@
         if (url.isFileURL && [url checkResourceIsReachableAndReturnError:&error] == YES) {
             self.url = url;
             QLPreviewController *previewController = [QLPreviewController new];
-            previewCtrl.delegate = self;
-            previewCtrl.dataSource = self;
+            previewController.delegate = self;
+            previewController.dataSource = self;
             UIViewController *rvc = [[[UIApplication sharedApplication] keyWindow] rootViewController];
-            [rvc presentViewController:previewCtrl animated:YES completion:nil];
+            [rvc presentViewController:previewController animated:YES completion:nil];
             NSLog(@"open successful");
             result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
         } else {
