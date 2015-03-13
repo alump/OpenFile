@@ -1,8 +1,6 @@
 OpenFile Cordova Plug-In
 ========================
 
-This plug-in is still under development!
-
 What is it?
 -----------
 PhoneGap / Cordova plugin that adds possibility to open local files on other applications. Eg. open PDF-file you have
@@ -29,14 +27,14 @@ I'm more than happy to add other platforms if patches are provided with license 
 
 Installation
 ------------
-Currently plug-in is not in Cordova plug-in repository. But if you have git available in your command line, you can
-still install it with:
 
-`phonegap plugin add https://github.com/alump/OpenFile.git`
+Add plug-in to your PhoneGap/Cordova project with:
+
+`phonegap plugin add org.vaadin.alump.openfile`
 
 or
 
-`cordova plugin add https://github.com/alump/OpenFile.git`
+`cordova plugin add org.vaadin.alump.openfile`
 
 Plan is to release plug-in in cordova plug-in repository soon, to make it easier to install it
 
@@ -61,7 +59,13 @@ Full JavaScript example, with custom result callbacks defined:
          }
     );
 
+Release History
+---------------
+### 0.1.0 (2015-03-13)
+  * Initial release
+  * Android, iOS and Windows Phone 8 support
+
 Planned features
 ----------------
  * Proper error codes
- * Adding new supported platforms
+ * Adding new support to new platforms
