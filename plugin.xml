@@ -3,7 +3,7 @@
     xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="org.vaadin.alump.openfile"
-    version="0.1.0">
+    version="0.2.0">
 
     <name>OpenFile</name>
     <description>Offers API to open local files in multiple platforms</description>
@@ -46,6 +46,12 @@
             </feature>
         </config-file>
         <source-file src="src/wp/OpenFile.cs"/>
+    </platform>
+
+    <platform name="windows">
+        <js-module src="src/windows/OpenFileProxy.js" name="OpenFileProxy">
+            <merges target="" />
+        </js-module>
     </platform>
 
 </plugin>

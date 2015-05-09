@@ -14,6 +14,13 @@ What is the license?
 Plug-in is released with [Apache 2.0 license](LICENSE.txt). Allowing it to be used also in closed source commercial
 projects.
 
+Authors
+-------
+Windows support is written by Doan Isakov doan.isakov(at)gmail.com, he has also provided improvements to
+initial iOS implementation.
+
+Other parts are written by Sami Viitanen sami.viitanen(at)gmail.com
+
 Copyrights
 ----------
 Copyrights belong to people listed in files. Files without copyright information are copyrighted by Sami Viitanen
@@ -21,7 +28,7 @@ Copyrights belong to people listed in files. Files without copyright information
 
 Supported Platforms
 -------------------
-Currently Android, iOS and Windows Phone 8.
+Currently Android, iOS, Windows Phone 8 and Windows (8+).
 
 I'm more than happy to add other platforms if patches are provided with license compatible with Apache 2.0.
 
@@ -61,6 +68,10 @@ Full JavaScript example, with custom result callbacks defined:
 
 Release History
 ---------------
+### 0.2.0 (2015-05-09)
+  * Improvements to iOS implementation. Thanks to Doan Isakov!
+  * Windows 8 (universal) support added. Kudos to Doan Isakov!
+
 ### 0.1.0 (2015-03-13)
   * Initial release
   * Android, iOS and Windows Phone 8 support
