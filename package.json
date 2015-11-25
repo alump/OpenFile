@@ -1,12 +1,18 @@
 {
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"name": "org.vaadin.alump.openfile",
 	"cordova_name": "Open File",
 	"description": "Offers API to open local files in multiple platforms",
 	"license": "Apache 2.0",
 	"repo": "https://github.com/alump/OpenFile.git",
 	"issue": "https://github.com/alump/issues",
-	"keywords": [ "cordova","file","open" ],
+	"keywords": [
+		"ecosystem:cordova",
+		"cordova-android",
+		"cordova-ios",
+		"cordova-windows",
+		"file",
+		"open" ],
 	"platforms": [ "android", "ios", "wp8", "windows" ],
 	"engines": [],
 	"englishdoc": ""

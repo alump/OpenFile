@@ -68,6 +68,9 @@ Full JavaScript example, with custom result callbacks defined:
 
 Release History
 ---------------
+### 0.2.1 (2015-11-25)
+  * Converting to npm repository
+
 ### 0.2.0 (2015-05-09)
   * Improvements to iOS implementation. Thanks to Doan Isakov!
   * Windows 8 (universal) support added. Kudos to Doan Isakov!
